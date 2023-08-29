@@ -1,0 +1,21 @@
+#mapContainer { height: 100vH;}
+
+.featurePropertyPopupHeader{
+	font-size: 16px;
+}
+
+.featurePropertyPopupContent{
+	font-size: 12px;
+	max-width: 500px;
+  width: 500px !important;
+	max-height: 500px;
+	overflow: auto;
+}
+
+.leaflet-popup-content{
+	font-size: 12px;
+	max-width: 500px;
+  width: 500px !important; 
+	max-height: 500px;
+	overflow: auto;
+}

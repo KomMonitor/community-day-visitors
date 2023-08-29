@@ -1,0 +1,25 @@
+{
+  "name": "KomMonitor community-day-visitors",
+  "private": true,
+  "version": "0.0.1",
+  "description": "A simple Leaflet-based map application showing visitors of the first KomMonitor community day",
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "license": "Apache 2.0",
+  "devDependencies": {
+    "http-server": "^14.1.0",
+    "jshint": "^2.13.6"
+  },
+  "scripts": {
+    "start": "http-server -p 8000 -c-1 ./ --cors --gzip"
+  },
+  "dependencies": {
+  },
+  "jshintConfig": {
+    "undef": true,
+    "unused": false,
+    "esversion": 9
+  }
+}
