@@ -138,6 +138,8 @@ function initMap() {
     map = L.map(mapContainerNodeId, {
         center: [51.3149725, 8.3905754],
         zoom: 8,
+        zoomDelta: 0.5,
+        zoomSnap: 0.5,
         minZoom: 8,
         maxZoom: 13,
     });

@@ -16,6 +16,8 @@
     "start": "http-server -p 8000 -c-1 ./ --cors --gzip"
   },
   "dependencies": {
+    "csv": "^6.3.3",
+    "papaparse": "^5.4.1"
   },
   "jshintConfig": {
     "undef": true,
